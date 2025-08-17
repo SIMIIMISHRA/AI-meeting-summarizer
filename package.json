@@ -10,10 +10,20 @@
     "build": "cd client && npm run build",
     "start": "cd server && npm start"
   },
-  "keywords": ["ai", "meeting", "summarizer", "openai", "email"],
+  "keywords": [
+    "ai",
+    "meeting",
+    "summarizer",
+    "openai",
+    "email"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "openai": "^5.12.2"
   }
 }
